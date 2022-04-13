@@ -1,12 +1,13 @@
 package com.infnet.br.user.validation.service;
 
-import com.infnet.br.user.validation.dto.UserDto;
+
+import com.infnet.br.user.validation.repository.UserDto;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import static com.infnet.br.user.validation.repository.UseDtoEntities.*;
-import static com.infnet.br.user.validation.repository.UseDtoEntities.userId1;
+
 
 @Service
 @RequiredArgsConstructor
